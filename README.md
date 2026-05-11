@@ -5,9 +5,7 @@ A production-ready machine learning platform that predicts machine failures from
 ---
 
 ## 🚀 Live Demo
-
-> Deploy on [Streamlit Cloud](https://streamlit.io/cloud) — see deployment section below.
-
+[live demo](https://machine-failure-prediction---maintenance-analytics-platform-it.streamlit.app/)
 ---
 
 ## 📁 Project Structure
@@ -124,16 +122,6 @@ python src/train_model.py
 ```
 
 This will overwrite `models/xgboost_machine_failure_model.pkl`, `models/feature_columns.pkl`, and `models/label_encoder.pkl`.
-
----
-
-## ☁️ Deploy on Streamlit Cloud
-
-1. Push this repo to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repo
-4. Set **Main file path** to `app/streamlit_app.py`
-5. Click **Deploy**
 
 ---
 
