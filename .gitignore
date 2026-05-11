@@ -1,0 +1,86 @@
+# ── Virtual Environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+
+# ── Python Cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+parts/
+var/
+
+# ── Environment / Secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+.streamlit/secrets.toml
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── OS Generated Files ────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDEs & Editors ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# ── Logs & Temp Files ─────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+logs/
+tmp/
+
+# ── Test & Coverage ───────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+.tox/
+nosetests.xml
+
+# ── Other Model Formats (large files not used in this project) ────────────────
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.bin
+
+# ── Streamlit — keep config.toml, ignore secrets ─────────────────────────────
+.streamlit/secrets.toml

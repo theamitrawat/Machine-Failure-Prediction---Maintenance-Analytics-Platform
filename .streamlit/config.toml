@@ -1,0 +1,14 @@
+[theme]
+primaryColor             = "#06B6D4"       # Cyan
+backgroundColor          = "#111827"       # Charcoal black
+secondaryBackgroundColor = "#1F2937"       # Dark grey
+textColor                = "#F9FAFB"       # Near white
+font                     = "sans serif"
+
+[server]
+headless             = true
+enableCORS           = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
